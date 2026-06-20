@@ -137,12 +137,14 @@ analyzer.analyze_file("path/to/your/logs.log")
 
 ## 📊 Sample Output
 
+
 ======================================================================
+
 🟠 THREAT LEVEL: High 🟠
 EXECUTIVE SUMMARY:
 Multiple security threats detected including brute force attacks,
-SQL injection, and cross-site scripting attempts.
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SQL injection, and cross-site scripting attempts.                                                                                                                
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━                                                                                               
 SECURITY ISSUES DETECTED:
 
 Brute Force Login Attack
@@ -156,9 +158,9 @@ Risk: Could expose or modify sensitive database information
 Cross-Site Scripting (XSS)
 IP Address: 192.168.1.102
 What happened: Malicious JavaScript injected in search parameter
-Risk: Could steal user session cookies or redirect visitors
+Risk: Could steal user session cookies or redirect visitors                                                                                                           
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━                                                                                                     
 IMMEDIATE ACTIONS REQUIRED:
 
 Block IP addresses: 185.220.101.45, 192.168.1.103, 192.168.1.102
@@ -166,7 +168,7 @@ Investigate account accessed by IP 185.220.101.45
 Review application input validation and implement parameterized queries
 Enable rate limiting on login endpoints (max 3 attempts/minute)
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━                                                                                                          
 📄 Detailed report saved to: reports/security_report_20260506_153045.txt
 
 ## 🎯 What This Tool Is For
@@ -241,7 +243,7 @@ MIT License - feel free to use this in your own projects.
 
 ## 👤 Author
 
-**Cicada (Shaheer Hussain)** - AI Security Engineer  
+**Shaheer Hussain (@ShaheerSec)** - AI Security Engineer  
 🔗 [All Links](https://linktr.ee/shaheersec)
 
 Building AI-powered cybersecurity tools in public.
